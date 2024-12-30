@@ -1,0 +1,35 @@
+.messages{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name{
+    color:aqua;
+}
+
+.my{
+    color: rgb(0, 255, 13);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.textbox{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 50%;
+    font-weight: 500;    
+}
+.sub{
+    background-color: #00ff00;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20 px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+}
+.bFont{
+    font-size: 20px;
+}
