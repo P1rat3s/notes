@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/font/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins_Bold';
+    src: url('/font/Poppins-Bold.ttf');
+}
 .messages{
     color: #ffffff;
     font-size: 20px;
@@ -17,7 +25,7 @@
     padding: 5px;
 }
 .textbox{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Poppins', Times, serif;
     font-size: 20px;
     width: 50%;
     font-weight: 500;    
