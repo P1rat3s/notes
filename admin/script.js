@@ -42,6 +42,6 @@ const firebaseConfig = {
 const fetchChat = db.ref("note/");
 fetchChat.on("child_added", function (snapshot) {
   const messages = snapshot.val();
-    const msg = "<div class=\"name\">"+ messages.time + " " + messages.usr + " " + messages.msg +" <br> <a/><button onclick=\"del("+ messages.time +")\"> Delete </button> </div>";
+    const msg = "<div class=\"con\"><div class=\"name\">"+ messages.time + " " + messages.usr + "</div><div class=\"note\"> " + messages.msg +"</div> <br> <a/><button class=\"delb\" onclick=\"del("+ messages.time +")\"> Delete </button> </div>";
     document.getElementById("messages").innerHTML += msg;
 });
